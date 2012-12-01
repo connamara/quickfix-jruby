@@ -1,7 +1,14 @@
 require 'helper'
 
-class TestQuickfixj1.5.2 < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+class TestQuickfixj < Test::Unit::TestCase
+  def test_lib
+    acct = quickfix.field.Account.new "hello"
+    order = quickfix.fix42.NewOrderSingle.new
+    order.set acct
+
+    acct_out = quickfix.field.Account.new
+    order.get acct_out
+
+    assert_equal acct, order.get_account
   end
 end
