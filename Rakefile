@@ -14,32 +14,13 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "quickfixj-1.5.2"
-  gem.homepage = "http://github.com/cbusbey/quickfixj-1.5.2"
-  gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "chris.busbey@gmail.com"
+  gem.name = "quickfix"
+  gem.homepage = "http://github.com/connamara/quickfix_gem"
+  gem.license = "Connamara"
+  gem.summary = %Q{Gemified quickfix}
+  gem.description = %Q{QuickFIX/J packaged as a gem for JRuby}
+  gem.email = "support@connamara.com"
   gem.authors = ["Chris Busbey"]
+  gem.platform = "java"
   # dependencies defined in Gemfile
-end
-Jeweler::RubygemsDotOrgTasks.new
-
-require 'rake/testtask'
-Rake::TestTask.new(:test) do |test|
-  test.libs << 'lib' << 'test'
-  test.pattern = 'test/**/test_*.rb'
-  test.verbose = true
-end
-
-task :default => :test
-
-require 'rdoc/task'
-Rake::RDocTask.new do |rdoc|
-  version = File.exist?('VERSION') ? File.read('VERSION') : ""
-
-  rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "quickfixj-1.5.2 #{version}"
-  rdoc.rdoc_files.include('README*')
-  rdoc.rdoc_files.include('lib/**/*.rb')
 end
