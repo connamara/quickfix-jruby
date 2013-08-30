@@ -1,5 +1,5 @@
-quickfix-jruby
-============
+quickfix-jruby [![Build Status](https://travis-ci.org/connamara/quickfix-jruby.png)](https://travis-ci.org/connamara/quickfix-jruby)
+==============
 
 [QuickFIX/J](http://www.quickfixj.org/) Gemified for JRuby.
 
