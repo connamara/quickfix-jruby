@@ -40,6 +40,12 @@ More Information
 * [QuickFIX/J](http://www.quickfixj.org/) 
 * [Connamara Systems](http://connamara.com)
 
+Contributing
+------------
+
+Please see the [contribution guidelines](https://github.com/connamara/quickfix-jruby/blob/master/CONTRIBUTION_GUIDELINES.md).
+
+
 Credits
 -------
 
