@@ -14,6 +14,13 @@ my_order.set my_account
 ...
 ```
 
+quickfix-jruby imports the following jars included in the QuickFIX/J release
+
+* quickfixj-all-1.5.3.jar
+* mina-core-1.1.7.jar
+* slf4j-api-1.6.3.jar
+* slf4j-jdk14-1.6.3.jar
+
 ### Versioning
 
 The major.minor version number corresponds to the major.minor version number of the QuickFIX/J release.  The patch number may or may not correspond to the QuickFIX/J patch number.
