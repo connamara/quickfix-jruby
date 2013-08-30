@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "quickfix-jruby"
-  s.version = "1.5.2"
+  s.version = "1.5.3"
   s.platform = "java"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -19,6 +19,8 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     ".document",
+    ".travis.yml",
+    "CONTRIBUTION_GUIDELINES.md",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
@@ -27,19 +29,19 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/quickfix.rb",
-    "lib/quickfixj-all-1.5.2.jar",
-    "quickfix.gemspec",
+    "lib/quickfixj-all-1.5.3.jar",
+    "quickfix-jruby.gemspec",
     "test/helper.rb",
     "test/tc_quickfix.rb"
   ]
   s.homepage = "http://github.com/connamara/quickfix-jruby"
   s.licenses = ["GPL"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.24"
+  s.rubygems_version = "2.0.7"
   s.summary = "Gemified QuickFIX/J"
 
   if s.respond_to? :specification_version then
-    s.specification_version = 3
+    s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<jeweler>, ["~> 1.8"])
