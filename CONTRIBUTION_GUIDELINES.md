@@ -10,7 +10,7 @@ Pull requests (with tests) are appreciated. No pull request is too small. Please
 * Adding tests
 * Closing [issues](https://github.com/connamara/quickfix-jruby/issues)
 
-Contributing to protobuf\_spec:
+Contributing to quickfix-jruby:
 
 1. Fork the [official repository](https://github.com/connamara/quickfix-jruby/tree/master).
 2. Make your changes in a topic branch.
