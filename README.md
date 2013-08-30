@@ -3,7 +3,7 @@ quickfix-jruby
 
 [QuickFIX/J](http://www.quickfixj.org/) Gemified for JRuby.
 
-The gem allows you easy import QuickFIX/J into your JRuby Application. e.g.,
+The gem allows you to easily import QuickFIX/J into your JRuby Application. e.g.,
 
 ``` ruby
 require 'quickfix'
