@@ -9,18 +9,28 @@ rescue Bundler::BundlerError => e
   $stderr.puts "Run `bundle install` to install missing gems"
   exit e.status_code
 end
-require 'rake'
+
+require 'rake/testtask'
+Rake::TestTask.new(:unit_tests) { |t|
+  t.libs << "test"
+  t.pattern = 'test/tc_quickfix.rb'
+  t.verbose = true
+  t.warning = true
+}
+
+task :test => [:unit_tests]
+task :default => :test
 
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
-  # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "quickfix"
-  gem.homepage = "http://github.com/connamara/quickfix_gem"
-  gem.license = "Connamara"
-  gem.summary = %Q{Gemified quickfix}
+  gem.name = "quickfix-jruby"
+  gem.homepage = "http://github.com/connamara/quickfix-jruby"
+  gem.license = "GPL"
+  gem.summary = %Q{Gemified QuickFIX/J}
   gem.description = %Q{QuickFIX/J packaged as a gem for JRuby}
   gem.email = "support@connamara.com"
   gem.authors = ["Chris Busbey"]
   gem.platform = "java"
   # dependencies defined in Gemfile
 end
+Jeweler::RubygemsDotOrgTasks.new
