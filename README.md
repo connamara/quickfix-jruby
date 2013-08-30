@@ -35,9 +35,9 @@ and run `bundle install` from your shell.
 More Information
 ----------------
 
-* [QuickFIX/J](http://www.quickfixj.org/) 
 * [Rubygems](https://rubygems.org/gems/quickfix-jruby)
 * [Issues](https://github.com/connamara/quickfix-jruby/issues)
+* [QuickFIX/J](http://www.quickfixj.org/) 
 * [Connamara Systems](http://connamara.com)
 
 Credits
@@ -62,4 +62,4 @@ quickfix-jruby is Copyright © 2013 Connamara Systems, llc.
 
 This software is available under the GPL and a commercial license.  Please see the [LICENSE](https://github.com/connamara/quickfix-jruby/blob/master/LICENSE.txt) file for the terms specified by the GPL license.  The commercial license offers more flexible licensing terms compared to the GPL, and includes support services.  [Contact us](mailto:info@connamara.com) for more information on the Connamara commercial license, what it enables, and how you can start developing with it.
 
-This product includes software developed by quickfixengine.org ([http://www.quickfixengine.org/(http://www.quickfixengine.org/)). Please see the [QuickFIX Software LICENSE](https://github.com/connamara/quickfix-jruby/blob/master/QUICKFIX_LICENSE.txt) for the terms specified by the QuickFIX Software License.
+This product includes software developed by quickfixengine.org ([http://www.quickfixengine.org/](http://www.quickfixengine.org/)). Please see the [QuickFIX Software LICENSE](https://github.com/connamara/quickfix-jruby/blob/master/QUICKFIX_LICENSE.txt) for the terms specified by the QuickFIX Software License.
