@@ -30,6 +30,26 @@ quickfix-jruby imports the following jars included in the QuickFIX/J release
 
 The major.minor version number corresponds to the major.minor version number of the QuickFIX/J release.  The patch number may or may not correspond to the QuickFIX/J patch number.
 
+Release
+-------
+
+Releases are performed with [jeweler](https://github.com/technicalpickles/jeweler).
+
+You will need [your rubygems account set up accordingly](http://guides.rubygems.org/make-your-own-gem/).
+
+### Example: Performing a release of version `1.2.3`
+
+```shell
+bundle exec rake version:write MAJOR=1 MINOR=2 PATCH=3
+bundle exec rake release
+```
+
+This will automatically:
+
+* Generate `quickfix-jruby.gemspec` and commit it
+* Tag `v1.2.3` and push it
+* Build `quickfix-jruby-1.2.3.gem` and push it to [rubygems.org](https://rubygems.org/)
+
 Install
 -------
 
