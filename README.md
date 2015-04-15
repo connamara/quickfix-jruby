@@ -16,10 +16,15 @@ my_order.set my_account
 
 quickfix-jruby imports the following jars included in the QuickFIX/J release
 
-* quickfixj-all-1.5.3.jar
-* mina-core-1.1.7.jar
-* slf4j-api-1.6.3.jar
-* slf4j-jdk14-1.6.3.jar
+* `quickfixj-all-1.6.0.jar`
+* `dom4j-1.6.1.jar`
+* `jaxen-1.1.4.jar`
+* `jcl-over-slf4j-1.7.12.jar`
+* `je-2.1.30.jar`
+* `mina-core-2.0.9.jar`
+* `proxool-0.9.1.jar`
+* `slf4j-api-1.7.12.jar`
+* `slf4j-jdk14-1.7.12.jar`
 
 ### Versioning
 
@@ -61,7 +66,8 @@ Credits
 
 Contributers:
 
-* Chris Busbey
+* [Chris Busbey](https://github.com/cbusbey)
+* [Mike Gatny](https://github.com/mgatny)
 
 ![Connamara Systems](http://www.connamara.com/images/home-connamara-logo-lg.png)
 
