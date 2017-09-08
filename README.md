@@ -26,14 +26,14 @@ quickfix-jruby imports the following jars included in the QuickFIX/J release
 * `quickfixj-messages-fix50-1.6.4.jar`
 * `quickfixj-messages-fix50sp1-1.6.4.jar`
 * `quickfixj-messages-fix50sp2-1.6.4.jar`
-* `dom4j-1.6.1.jar`
-* `jaxen-1.1.4.jar`
-* `jcl-over-slf4j-1.7.12.jar`
+* `dom4j-2.0.0.jar`
+* `jaxen-1.1.6.jar`
+* `jcl-over-slf4j-1.7.22.jar`
 * `je-2.1.30.jar`
-* `mina-core-2.0.9.jar`
+* `mina-core-2.0.16.jar`
 * `proxool-0.9.1.jar`
-* `slf4j-api-1.7.12.jar`
-* `slf4j-jdk14-1.7.12.jar`
+* `slf4j-api-1.7.22.jar`
+* `slf4j-jdk14-1.7.22.jar`
 
 ### Versioning
 
