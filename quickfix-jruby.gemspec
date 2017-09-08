@@ -10,8 +10,9 @@ Gem::Specification.new do |s|
   s.platform = "java"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
+  s.require_paths = ["lib"]
   s.authors = ["Chris Busbey"]
-  s.date = "2015-04-15"
+  s.date = "2017-09-08"
   s.description = "QuickFIX/J packaged as a gem for JRuby"
   s.email = "support@connamara.com"
   s.extra_rdoc_files = [
@@ -36,7 +37,16 @@ Gem::Specification.new do |s|
     "lib/mina-core-2.0.9.jar",
     "lib/proxool-0.9.1.jar",
     "lib/quickfix.rb",
-    "lib/quickfixj-all-1.6.0.jar",
+    "lib/quickfixj-core-1.6.4.jar",
+    "lib/quickfixj-messages-fix40-1.6.4.jar",
+    "lib/quickfixj-messages-fix41-1.6.4.jar",
+    "lib/quickfixj-messages-fix42-1.6.4.jar",
+    "lib/quickfixj-messages-fix43-1.6.4.jar",
+    "lib/quickfixj-messages-fix44-1.6.4.jar",
+    "lib/quickfixj-messages-fix50-1.6.4.jar",
+    "lib/quickfixj-messages-fix50sp1-1.6.4.jar",
+    "lib/quickfixj-messages-fix50sp2-1.6.4.jar",
+    "lib/quickfixj-messages-fixt11-1.6.4.jar",
     "lib/slf4j-api-1.7.12.jar",
     "lib/slf4j-jdk14-1.7.12.jar",
     "quickfix-jruby.gemspec",
@@ -45,8 +55,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/connamara/quickfix-jruby"
   s.licenses = ["GPL"]
-  s.require_paths = ["lib"]
-  s.rubygems_version = "2.1.9"
+  s.rubygems_version = "2.4.8"
   s.summary = "Gemified QuickFIX/J"
 
   if s.respond_to? :specification_version then
