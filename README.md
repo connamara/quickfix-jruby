@@ -16,7 +16,16 @@ my_order.set my_account
 
 quickfix-jruby imports the following jars included in the QuickFIX/J release
 
-* `quickfixj-all-1.6.0.jar`
+* `quickfixj-core-1.6.4.jar`
+* `quickfixj-messages-fix40-1.6.4.jar`
+* `quickfixj-messages-fix41-1.6.4.jar`
+* `quickfixj-messages-fix42-1.6.4.jar`
+* `quickfixj-messages-fix43-1.6.4.jar`
+* `quickfixj-messages-fix44-1.6.4.jar`
+* `quickfixj-messages-fixt11-1.6.4.jar`
+* `quickfixj-messages-fix50-1.6.4.jar`
+* `quickfixj-messages-fix50sp1-1.6.4.jar`
+* `quickfixj-messages-fix50sp2-1.6.4.jar`
 * `dom4j-1.6.1.jar`
 * `jaxen-1.1.4.jar`
 * `jcl-over-slf4j-1.7.12.jar`
